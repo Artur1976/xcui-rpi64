@@ -5,7 +5,7 @@ How do I install?
 update your ubuntu first, then install panel
 
     sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install software-properties-common libxslt1-dev libcurl3 libgeoip-dev python -y;
-    rm install.py; wget https://github.com/Artur1976/xcui-rpi64/raw/master/install.py
+    wget https://github.com/Artur1976/xcui-rpi64/raw/main/install.py
     sudo python install.py
 
 If you want to install main server with admin panel, choose MAIN.
